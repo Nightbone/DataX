@@ -32,6 +32,8 @@
         <junit-version>4.11</junit-version>
         <tddl.version>5.1.22-1</tddl.version>
         <swift-version>1.0.0</swift-version>
+        <mysql-connector-version>8.0.16</mysql-connector-version>
+        <postgresql-connector-version>42.2.5</postgresql-connector-version>
 
         <project-sourceEncoding>UTF-8</project-sourceEncoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
