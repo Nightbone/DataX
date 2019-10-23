@@ -130,7 +130,7 @@ public class Configuration {
 
 	public String getNecessaryValue(String key, ErrorCode errorCode) {
 		String value = this.getString(key, null);
-		if (StringUtils.isBlank(value)) {
+		if ((!"password".equals(key)) && StringUtils.isBlank(value)) {
 			throw DataXException.asDataXException(errorCode,
 					String.format("您提供配置文件有误，[%s]是必填参数，不允许为空或者留白 .", key));
 		}
